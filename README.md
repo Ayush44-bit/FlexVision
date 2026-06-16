@@ -1,73 +1,198 @@
-# Welcome to your Lovable project
+# FlexVision
 
-## Project info
+> AI-Powered Rehabilitation & Movement Analysis Platform
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+FlexVision is an intelligent rehabilitation platform that leverages computer vision and artificial intelligence to assist patients, physiotherapists, and healthcare providers in delivering more effective, data-driven recovery experiences.
 
-## How can I edit this code?
+Using real-time pose estimation and movement analysis, FlexVision evaluates exercise performance, tracks rehabilitation progress, and provides actionable insights to support personalized treatment plans.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Vision
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Traditional rehabilitation often relies on manual observation and periodic assessments. FlexVision bridges this gap by providing continuous, objective, and measurable movement analysis through advanced AI technologies.
 
-Changes made via Lovable will be committed automatically to this repo.
+Our mission is to make rehabilitation more accessible, engaging, and effective through intelligent motion tracking and real-time feedback.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Key Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Real-Time Pose Estimation
 
-Follow these steps:
+Track body movements and joint positions using AI-powered computer vision.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Exercise Performance Analysis
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Evaluate exercise accuracy and identify movement deviations automatically.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Progress Monitoring
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Measure patient improvement over time through performance metrics and visual analytics.
+
+### Therapist Dashboard
+
+Provide healthcare professionals with detailed rehabilitation insights and patient progress reports.
+
+### Remote Rehabilitation Support
+
+Enable patients to perform guided exercises from home while maintaining clinical oversight.
+
+### Personalized Recovery Plans
+
+Adapt rehabilitation programs based on patient performance and recovery patterns.
+
+---
+
+## How It Works
+
+1. Patient performs prescribed rehabilitation exercises.
+2. Computer vision models analyze body posture and movement.
+3. Joint angles and motion patterns are evaluated in real time.
+4. Feedback is generated to improve exercise execution.
+5. Performance data is stored and visualized for long-term progress tracking.
+6. Therapists review insights and optimize treatment plans.
+
+---
+
+## Core Capabilities
+
+* Human Pose Estimation
+* Movement Tracking
+* Joint Angle Analysis
+* Exercise Classification
+* Performance Scoring
+* Progress Analytics
+* AI-Based Feedback System
+* Remote Patient Monitoring
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+
+### AI & Computer Vision
+
+* OpenCV
+* MediaPipe
+* TensorFlow
+* Machine Learning Models
+
+### Backend
+
+* Node.js
+* REST APIs
+
+### Database
+
+* PostgreSQL / Supabase
+
+---
+
+## Architecture
+
+```text
+Patient Camera Input
+        │
+        ▼
+Computer Vision Engine
+        │
+        ▼
+Pose Detection & Tracking
+        │
+        ▼
+Movement Analysis Layer
+        │
+        ▼
+AI Evaluation Engine
+        │
+        ▼
+Progress Analytics Dashboard
+        │
+        ▼
+Patient & Therapist Insights
+```
+
+---
+
+## Benefits
+
+### For Patients
+
+* Improved exercise accuracy
+* Real-time guidance and feedback
+* Convenient home-based rehabilitation
+* Objective recovery tracking
+
+### For Therapists
+
+* Data-driven treatment decisions
+* Continuous patient monitoring
+* Reduced manual assessment workload
+* Enhanced treatment outcomes
+
+### For Healthcare Organizations
+
+* Scalable rehabilitation services
+* Increased patient engagement
+* Better treatment visibility
+* Improved operational efficiency
+
+---
+
+## Future Roadmap
+
+* AI-powered exercise recommendations
+* Predictive recovery analytics
+* Gamified rehabilitation experiences
+* Multi-condition rehabilitation support
+* Mobile application
+* Wearable device integration
+* Voice-guided exercise coaching
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js 18+
+* npm
+
+### Installation
+
+```bash
+git clone <YOUR_REPOSITORY_URL>
+cd flexvision
+npm install
+```
+
+### Run Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Goal
 
-## What technologies are used for this project?
+FlexVision aims to redefine rehabilitation by combining artificial intelligence, computer vision, and healthcare expertise to create a smarter, more accessible, and patient-centric recovery experience.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## License
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT License
